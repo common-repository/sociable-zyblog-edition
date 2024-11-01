@@ -1,0 +1,40 @@
+#sociable_options fieldset {
+	margin: 1em;
+}
+
+#sociable_site_list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+        font-size: 80%;
+}
+#sociable_site_list li {
+	cursor: move;
+	float: left;
+	margin: 2px 2px 0 0;
+	width: 12em;
+	height: 20px;
+	text-align: left;
+	padding: 4px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#sociable_site_list li.active { background-color: #6da6d1; }
+#sociable_site_list li.active img {
+	opacity: 1;
+	-moz-opacity: 1;
+	filter:alpha(opacity=100);
+}
+#sociable_site_list li.inactive { background-color: #dddddd; }
+#sociable_site_list li.inactive img {
+	opacity: .4;
+	-moz-opacity: .4;
+	filter:alpha(opacity=40);
+}
+#sociable_site_list li input {
+	margin: 2px;
+}
+
+#sociable_tagline input {
+	width: 30em;
+}
